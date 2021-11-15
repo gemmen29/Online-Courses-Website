@@ -260,4 +260,17 @@ body {
   -webkit-filter: invert(100%);
           filter: invert(100%);
 }
+
+.footer {
+  height: 120px;
+}
+
+.footer .double-c {
+  width: 50px;
+  height: 50px;
+}
+
+.footer .company-name {
+  line-height: 15px;
+}
 /*# sourceMappingURL=style.css.map */
