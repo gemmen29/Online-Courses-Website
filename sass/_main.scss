@@ -12,3 +12,20 @@ body {
 .dark-gray {
   color: $font-color4;
 }
+
+.underline {
+  position: relative;
+}
+.underline::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 40px;
+  height: 2px;
+  background-color: $font-color2;
+  border-radius: 2px;
+  top: 100%;
+  left: calc(50% - 20px);
+  // transform: translate(-50%, -50%);
+  margin-top: 10px
+}
