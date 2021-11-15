@@ -109,6 +109,7 @@ body {
   height: 2px;
   background-color: #ec5242;
   border-radius: 2px;
+  margin-top: 10px;
   top: 100%;
   left: calc(50% - 20px);
   margin-top: 10px;
@@ -169,5 +170,89 @@ body {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+}
+
+.main-content .featured-speakers .speakers .speaker .speaker__image {
+  position: relative;
+}
+
+.main-content .featured-speakers .speakers .speaker .speaker__image::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: -15px;
+  left: -13px;
+  background-image: url(/assets/images/checkers.jpg);
+  background-size: 55%;
+  z-index: -1;
+  opacity: 0.75;
+}
+
+.main-content .featured-speakers .speakers .speaker .speaker__image::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: -15px;
+  left: -13px;
+  background-color: #d3d3d3;
+  z-index: -2;
+}
+
+.main-content .featured-speakers .speakers .speaker .speaker__name {
+  font-weight: 700;
+}
+
+.main-content .featured-speakers .speakers .speaker .speaker__info {
+  font-size: 13px;
+  position: relative;
+}
+
+.main-content .featured-speakers .speakers .speaker .speaker__info::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background-color: #d3d3d3;
+  border-radius: 2px;
+  margin-top: 10px;
+  top: 100%;
+}
+
+.main-content .featured-speakers .speakers .speaker .speaker__detailed-info {
+  font-size: 12px;
+}
+
+.main-content .featured-speakers .speakers .more-botton {
+  background-color: white;
+  color: #4f4f4f;
+  padding: 18px 25px;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  border-radius: 3px;
+  border: 1px solid #d3d3d3;
+  margin: 5px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 12px;
+}
+
+.main-content .featured-speakers .speakers .more-botton .down-arrow {
+  border-left: 4px solid #ec5242;
+  border-bottom: 4px solid #ec5242;
+  width: 13px;
+  height: 13px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  margin-top: 3px;
 }
 /*# sourceMappingURL=style.css.map */

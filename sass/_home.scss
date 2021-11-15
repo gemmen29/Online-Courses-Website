@@ -14,7 +14,7 @@
       z-index: -1;
       opacity: 0.5;
     }
-    
+
     &__discreption {
       border: 4px solid white;
     }
@@ -52,6 +52,76 @@
       margin: 10px auto;
       display: block;
       width: fit-content;
+    }
+  }
+
+  .featured-speakers {
+    .speakers {
+      .speaker {
+        .speaker__image {
+          position: relative;
+        }
+        .speaker__image::before {
+          content: "";
+          display: block;
+          position: absolute;
+          width: 100px;
+          height: 100px;
+          top: -15px;
+          left: -13px;
+          background-image: url(/assets/images/checkers.jpg);
+          background-size: 55%;
+          z-index: -1;
+          opacity: 0.75;
+        }
+        .speaker__image::after {
+          content: "";
+          display: block;
+          position: absolute;
+          width: 100px;
+          height: 100px;
+          top: -15px;
+          left: -13px;
+          background-color: $font-color3;
+          z-index: -2;
+        }
+        .speaker__name {
+          font-weight: 700;
+        }
+        .speaker__info {
+          font-size: 13px;
+          position: relative;
+        }
+        .speaker__info::after {
+          @include draw-line(30px, $font-color3);
+          top: 100%;
+        }
+        .speaker__detailed-info {
+          font-size: 12px;
+        }
+      }
+      .more-botton {
+        background-color: white;
+        color: $font-color4;
+        padding: 18px 25px;
+        text-decoration: none;
+        font-size: 18px;
+        display: block;
+        border-radius: 3px;
+        border: 1px solid $font-color3;
+        margin: 5px 15px;
+        display: flex;
+        justify-content: center;
+        gap: 12px;
+        .down-arrow {
+          border-left: 4px solid $font-color2;
+          border-bottom: 4px solid $font-color2;
+          width: 13px;
+          height: 13px;  
+          transform: rotate(-45deg);
+          margin-top: 3px;
+        }
+      }
     }
   }
 }

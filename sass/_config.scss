@@ -10,6 +10,17 @@ $font-color4: #4f4f4f;
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
+@mixin draw-line($width, $color) {
+  content: "";
+  display: block;
+  position: absolute;
+  width: $width;
+  height: 2px;
+  background-color: $color;
+  border-radius: 2px;
+  margin-top: 10px
+}
+
 @mixin media-md {
   @media screen and (min-width: 768px) {
     @content;

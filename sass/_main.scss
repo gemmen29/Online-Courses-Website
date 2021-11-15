@@ -17,13 +17,7 @@ body {
   position: relative;
 }
 .underline::after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 40px;
-  height: 2px;
-  background-color: $font-color2;
-  border-radius: 2px;
+  @include draw-line(40px, $font-color2);
   top: 100%;
   left: calc(50% - 20px);
   // transform: translate(-50%, -50%);
