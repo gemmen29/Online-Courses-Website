@@ -255,4 +255,9 @@ body {
           transform: rotate(-45deg);
   margin-top: 3px;
 }
+
+.main-content .partners .brightness {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
 /*# sourceMappingURL=style.css.map */
