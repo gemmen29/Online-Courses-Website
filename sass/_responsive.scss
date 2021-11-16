@@ -2,13 +2,16 @@
   .main-content {
     .logo-section__image {
       border: 0;
+
       img {
         border: 1px solid #afafaf;
       }
     }
+
     .featured-speakers .speakers .speaker:nth-child(n + 3) {
       display: flex !important;
     }
+
     .main-program .join-button {
       background-color: transparent;
       color: white;
@@ -21,10 +24,12 @@
     }
   }
 }
+
 @include media-lg {
   .main-content .main-header {
     padding: 3rem 20% !important;
   }
+
   .main-content .main-program {
     padding: 1.5rem 8% !important;
   }

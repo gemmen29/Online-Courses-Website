@@ -1,5 +1,6 @@
 .nav-bar {
-  height:70px;
+  height: 70px;
+
   &__mobile-menu {
     position: fixed;
     width: 100%;
@@ -8,34 +9,37 @@
     top: 0;
     left: 0;
     z-index: 10;
-    display: flex;
-    flex-direction: column;
-    gap: 50;
+
     &-link {
       font-size: 2.5rem;
       text-decoration: none;
       color: $font-color4;
       cursor: pointer;
     }
+
     &-link:hover {
       color: $font-color2;
     }
   }
+
   &__link {
-    font-size: 1.2srem;
+    font-size: 1.2rem;
     text-decoration: none;
     color: $font-color4;
     cursor: pointer;
     padding: 5px;
     transition: all 1s;
   }
+
   &__link:hover {
     color: white;
     background-color: rgba(136, 7, 168, 0.616);
     padding: 7px;
     border-radius: 3px;
   }
-  &__link:active,.active {
+
+  &__link:active,
+  .active {
     color: #{$font-color2}cc;
     background-color: transparent;
     border-radius: 0;
@@ -75,6 +79,7 @@
     .feature {
       grid-gap: 15px;
       position: relative;
+
       &::before {
         content: "";
         display: block;
@@ -106,6 +111,7 @@
         .speaker__image {
           position: relative;
         }
+
         .speaker__image::before {
           content: "";
           display: block;
@@ -119,6 +125,7 @@
           z-index: -1;
           opacity: 0.75;
         }
+
         .speaker__image::after {
           content: "";
           display: block;
@@ -130,32 +137,36 @@
           background-color: $font-color3;
           z-index: -2;
         }
+
         .speaker__name {
           font-weight: 700;
         }
+
         .speaker__info {
           font-size: 13px;
           position: relative;
         }
+
         .speaker__info::after {
           @include draw-line(30px, $font-color3);
+
           top: 100%;
         }
       }
     }
+
     .more-botton {
       background-color: white;
       color: $font-color4;
       padding: 18px 25px;
       text-decoration: none;
       font-size: 18px;
-      display: block;
       border-radius: 3px;
       border: 1px solid $font-color3;
       margin: 5px 15px;
-      display: flex;
       justify-content: center;
       gap: 12px;
+
       .down-arrow {
         border-left: 4px solid $font-color2;
         border-bottom: 4px solid $font-color2;
@@ -174,11 +185,14 @@
       filter: invert(100%);
     }
   }
+
   height: 120px;
+
   .double-c {
     width: 50px;
     height: 50px;
   }
+
   .company-name {
     line-height: 15px;
   }

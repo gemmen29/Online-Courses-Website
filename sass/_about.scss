@@ -1,9 +1,10 @@
-.main-content {
+.main-content-about {
   .main-header {
     &__discreption {
       border: 1px solid #afafaf;
       background-color: white;
     }
+
     &__account-link {
       color: $font-color1;
       text-underline-offset: 3px;
@@ -13,8 +14,10 @@
   .logo-section {
     .underline::after {
       @include draw-line(26px, $font-color2);
+
       left: calc(50% - 13px);
     }
+
     &__image {
       border: 1px solid #afafaf;
       background-color: white;
@@ -24,15 +27,18 @@
   .past-section {
     .underline::after {
       @include draw-line(26px, $font-color2);
+
       left: calc(50% - 13px);
     }
 
     &__image {
       position: relative;
+
       img {
         opacity: 0.3;
       }
     }
+
     &__image::before {
       content: "";
       display: block;
@@ -44,6 +50,7 @@
       background-color: #be2408;
       opacity: 0.9;
     }
+
     &__info {
       position: absolute;
       width: 100%;
