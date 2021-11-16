@@ -45,7 +45,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Inspired by Cindy chen design [Behance](https://www.behance.net/adagio07) [Designlink] (https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+- Inspired by Cindy chen design [Behance](https://www.behance.net/adagio07) 
+- The design link [Designlink](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 ## 📝 License
 
