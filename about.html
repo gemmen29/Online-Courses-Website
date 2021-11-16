@@ -12,9 +12,16 @@
 </head>
 
 <body>
-  <header class="ps-3 pt-2">
+  <header class="ps-3 pt-2 nav-bar">
+    <div id="mobile-menu" class="nav-bar__mobile-menu p-4 d-md-none d-none">
+      <div class="d-flex justify-content-between w-100 pe-3 align-items-center">
+        <a class="nav-bar__mobile-menu-link" href="index.html">Home</a>
+        <a id="close-mobile-menu-btn" class="nav-bar__mobile-menu-link">X</a>
+      </div>
+      <a class="nav-bar__mobile-menu-link" href="about.html">About</a>
+    </div>
     <nav>
-      <a class="display-4 text-dark"><i class="fas fa-bars"></i></a>
+      <a id="mobile-menu-show-btn" class="display-4 text-dark"><i class="fas fa-bars"></i></a>
     </nav>
   </header>
 
@@ -121,6 +128,7 @@
     </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/mobile-menu.js"></script>
 </body>
 
 </html>
