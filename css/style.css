@@ -403,4 +403,13 @@ body {
     display: flex !important;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .main-content .main-header {
+    padding: 3rem 20% !important;
+  }
+  .main-content .main-program {
+    padding: 1.5rem 8% !important;
+  }
+}
 /*# sourceMappingURL=style.css.map */
