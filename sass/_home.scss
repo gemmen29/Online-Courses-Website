@@ -10,7 +10,7 @@
       height: 100%;
       top: 0;
       left: 0;
-      background: url('../assets/images/header-bg.jpg');
+      background: url("../assets/images/header-bg.jpg");
       z-index: -1;
       opacity: 0.5;
     }
@@ -69,7 +69,7 @@
           height: 100px;
           top: -15px;
           left: -13px;
-          background-image: url('../assets/images/checkers.jpg');
+          background-image: url("../assets/images/checkers.jpg");
           background-size: 55%;
           z-index: -1;
           opacity: 0.75;
@@ -117,22 +117,21 @@
           border-left: 4px solid $font-color2;
           border-bottom: 4px solid $font-color2;
           width: 13px;
-          height: 13px;  
+          height: 13px;
           transform: rotate(-45deg);
           margin-top: 3px;
         }
       }
     }
   }
+}
 
+.footer {
   .partners {
     .brightness {
       filter: invert(100%);
     }
   }
-}
-
-.footer {
   height: 120px;
   .double-c {
     width: 50px;

@@ -256,13 +256,13 @@ body {
   margin-top: 3px;
 }
 
-.main-content .partners .brightness {
-  -webkit-filter: invert(100%);
-          filter: invert(100%);
-}
-
 .footer {
   height: 120px;
+}
+
+.footer .partners .brightness {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
 }
 
 .footer .double-c {
