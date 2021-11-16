@@ -1,4 +1,5 @@
 .nav-bar {
+  height:70px;
   &__mobile-menu {
     position: fixed;
     width: 100%;
@@ -19,6 +20,26 @@
     &-link:hover {
       color: $font-color2;
     }
+  }
+  &__link {
+    font-size: 1.2srem;
+    text-decoration: none;
+    color: $font-color4;
+    cursor: pointer;
+    padding: 5px;
+    transition: all 1s;
+  }
+  &__link:hover {
+    color: white;
+    background-color: rgba(136, 7, 168, 0.616);
+    padding: 7px;
+    border-radius: 3px;
+  }
+  &__link:active,.active {
+    color: #{$font-color2}cc;
+    background-color: transparent;
+    border-radius: 0;
+    border-bottom: 1px solid $font-color2;
   }
 }
 

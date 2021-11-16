@@ -115,6 +115,10 @@ body {
   margin-top: 10px;
 }
 
+.nav-bar {
+  height: 70px;
+}
+
 .nav-bar__mobile-menu {
   position: fixed;
   width: 100%;
@@ -142,6 +146,30 @@ body {
 
 .nav-bar__mobile-menu-link:hover {
   color: #ec5242;
+}
+
+.nav-bar__link {
+  font-size: 1.2srem;
+  text-decoration: none;
+  color: #4f4f4f;
+  cursor: pointer;
+  padding: 5px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.nav-bar__link:hover {
+  color: white;
+  background-color: rgba(136, 7, 168, 0.616);
+  padding: 7px;
+  border-radius: 3px;
+}
+
+.nav-bar__link:active, .nav-bar .active {
+  color: #ec5242cc;
+  background-color: transparent;
+  border-radius: 0;
+  border-bottom: 1px solid #ec5242;
 }
 
 .main-content .main-header {

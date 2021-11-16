@@ -20,8 +20,12 @@
       </div>
       <a class="nav-bar__mobile-menu-link" href="about.html">About</a>
     </div>
-    <nav>
-      <a id="mobile-menu-show-btn" class="display-4 text-dark"><i class="fas fa-bars"></i></a>
+    <nav class="h-100 d-flex align-items-center">
+      <a id="mobile-menu-show-btn" class="display-4 text-dark d-md-none"><i class="fas fa-bars"></i></a>
+      <div class="nav-bar__desktop-menu d-none d-md-flex justify-content-end px-5 gap-3 w-100">
+        <a class="nav-bar__link" href="index.html">Home</a>
+        <a class="nav-bar__link active" href="about.html">About</a>
+      </div>
     </nav>
   </header>
 
