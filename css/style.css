@@ -273,4 +273,31 @@ body {
 .footer .company-name {
   line-height: 15px;
 }
+
+.main-content .main-header__discreption {
+  border: 1px solid #afafaf;
+  background-color: white;
+}
+
+.main-content .main-header__account-link {
+  color: #272a31;
+  text-underline-offset: 3px;
+}
+
+.main-content .logo-section .underline::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 26px;
+  height: 2px;
+  background-color: #ec5242;
+  border-radius: 2px;
+  margin-top: 10px;
+  left: calc(50% - 13px);
+}
+
+.main-content .logo-section__image {
+  border: 1px solid #afafaf;
+  background-color: white;
+}
 /*# sourceMappingURL=style.css.map */

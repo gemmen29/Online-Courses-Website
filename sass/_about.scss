@@ -1,0 +1,23 @@
+.main-content {
+  .main-header {
+    &__discreption {
+      border: 1px solid #afafaf;
+      background-color: white;
+    }
+    &__account-link {
+      color: $font-color1;
+      text-underline-offset: 3px;
+    }
+  }
+  .logo-section {
+    .underline::after {
+      @include draw-line(26px, $font-color2);
+      left: calc(50% - 13px);
+    }
+    &__image {
+      border: 1px solid #afafaf;
+      background-color: white;
+      // margin: 0 10px;
+    }
+  }
+}
