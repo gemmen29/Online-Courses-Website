@@ -5,4 +5,7 @@
       border: 1px solid #afafaf;
     }
   }
+  .main-content .featured-speakers .speakers .speaker:nth-child(n+3){
+    display: flex !important;
+  }
 }

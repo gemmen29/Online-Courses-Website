@@ -96,31 +96,28 @@
           @include draw-line(30px, $font-color3);
           top: 100%;
         }
-        .speaker__detailed-info {
-          font-size: 12px;
-        }
       }
-      .more-botton {
-        background-color: white;
-        color: $font-color4;
-        padding: 18px 25px;
-        text-decoration: none;
-        font-size: 18px;
-        display: block;
-        border-radius: 3px;
-        border: 1px solid $font-color3;
-        margin: 5px 15px;
-        display: flex;
-        justify-content: center;
-        gap: 12px;
-        .down-arrow {
-          border-left: 4px solid $font-color2;
-          border-bottom: 4px solid $font-color2;
-          width: 13px;
-          height: 13px;
-          transform: rotate(-45deg);
-          margin-top: 3px;
-        }
+    }
+    .more-botton {
+      background-color: white;
+      color: $font-color4;
+      padding: 18px 25px;
+      text-decoration: none;
+      font-size: 18px;
+      display: block;
+      border-radius: 3px;
+      border: 1px solid $font-color3;
+      margin: 5px 15px;
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      .down-arrow {
+        border-left: 4px solid $font-color2;
+        border-bottom: 4px solid $font-color2;
+        width: 13px;
+        height: 13px;
+        transform: rotate(-45deg);
+        margin-top: 3px;
       }
     }
   }
