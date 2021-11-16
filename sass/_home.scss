@@ -10,7 +10,7 @@
       height: 100%;
       top: 0;
       left: 0;
-      background: url(/assets/images/header-bg.jpg);
+      background: url('../assets/images/header-bg.jpg');
       z-index: -1;
       opacity: 0.5;
     }
@@ -69,7 +69,7 @@
           height: 100px;
           top: -15px;
           left: -13px;
-          background-image: url(/assets/images/checkers.jpg);
+          background-image: url('../assets/images/checkers.jpg');
           background-size: 55%;
           z-index: -1;
           opacity: 0.75;

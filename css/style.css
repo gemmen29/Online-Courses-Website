@@ -79,7 +79,7 @@ select {
 
 @font-face {
   font-family: cocogoose;
-  src: url(/assets/fonts/cocogoose-pro.regular.ttf);
+  src: url("../assets/fonts/cocogoose-pro.regular.ttf");
 }
 
 body {
@@ -127,7 +127,7 @@ body {
   height: 100%;
   top: 0;
   left: 0;
-  background: url(/assets/images/header-bg.jpg);
+  background: url("../assets/images/header-bg.jpg");
   z-index: -1;
   opacity: 0.5;
 }
@@ -184,7 +184,7 @@ body {
   height: 100px;
   top: -15px;
   left: -13px;
-  background-image: url(/assets/images/checkers.jpg);
+  background-image: url("../assets/images/checkers.jpg");
   background-size: 55%;
   z-index: -1;
   opacity: 0.75;
