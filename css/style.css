@@ -370,6 +370,10 @@ body {
   position: relative;
 }
 
+.main-content .past-section__image img {
+  opacity: 0.3;
+}
+
 .main-content .past-section__image::before {
   content: "";
   display: block;
@@ -379,7 +383,7 @@ body {
   top: 0;
   left: 0;
   background-color: #be2408;
-  opacity: 0.7;
+  opacity: 0.9;
 }
 
 .main-content .past-section__info {
