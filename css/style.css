@@ -336,4 +336,13 @@ body {
   top: 0;
   left: 0;
 }
+
+@media screen and (min-width: 768px) {
+  .main-content .logo-section__image {
+    border: 0;
+  }
+  .main-content .logo-section__image img {
+    border: 1px solid #afafaf;
+  }
+}
 /*# sourceMappingURL=style.css.map */
