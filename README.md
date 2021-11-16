@@ -17,6 +17,9 @@
 
 [Live Demo Link](https://gemmen29.github.io/Module1-Capstone/)
 
+## Loom Video
+
+[loom video](https://www.loom.com/share/d1fdb7e378704c0aa0383f0413bb7407?sharedAppSource=personal_library)
 
 ## Getting Started
 
