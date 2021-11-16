@@ -397,10 +397,22 @@ body {
   .main-content .logo-section__image img {
     border: 1px solid #afafaf;
   }
-  .main-content .featured-speakers .speakers .speaker:nth-child(n+3) {
+  .main-content .featured-speakers .speakers .speaker:nth-child(n + 3) {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important;
+  }
+  .main-content .main-program .join-button {
+    background-color: transparent;
+    color: white;
+    font-size: 1.2rem;
+    margin: 10px auto;
+    display: block;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    text-decoration: underline;
+    text-underline-offset: 3.5px;
   }
 }
 
