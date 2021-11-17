@@ -5,6 +5,10 @@
   }
 
   .main-content {
+    .main-header {
+      padding: 0 4rem;
+    }
+
     .logo-section__image {
       border: 0;
 
@@ -43,12 +47,7 @@
 
 @include media-lg {
   .main-content .main-header {
-    padding: 3rem 10% !important;
-    padding-right: 25% !important;
-  }
-
-  .main-content-about .main-header {
-    padding: 3rem 15% !important;
+    padding: 0 6rem;
   }
 
   .main-content .main-program {

@@ -192,7 +192,8 @@ select {
 
 .main-content .main-header {
   position: relative;
-  padding-top: 70px !important;
+  min-height: 100vh;
+  padding: 0 1.5rem;
 }
 
 .main-content .main-header::before {
@@ -429,6 +430,10 @@ select {
     background: white;
   }
 
+  .main-content .main-header {
+    padding: 0 4rem;
+  }
+
   .main-content .logo-section__image {
     border: 0;
   }
@@ -468,12 +473,7 @@ select {
 
 @media screen and (min-width: 1024px) {
   .main-content .main-header {
-    padding: 3rem 10% !important;
-    padding-right: 25% !important;
-  }
-
-  .main-content-about .main-header {
-    padding: 3rem 15% !important;
+    padding: 0 6rem;
   }
 
   .main-content .main-program {
