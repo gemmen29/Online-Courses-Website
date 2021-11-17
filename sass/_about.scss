@@ -1,8 +1,10 @@
 .main-content-about {
+
   .main-header {
     &__discreption {
       border: 1px solid #afafaf;
       background-color: white;
+      max-width: 805px;
     }
 
     &__account-link {

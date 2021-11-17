@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <header class="ps-3 pt-2 nav-bar">
+  <header class="nav-bar">
     <div id="mobile-menu" class="nav-bar__mobile-menu p-4 d-md-none d-none">
       <div class="d-flex justify-content-between w-100 pe-3 align-items-center">
         <a class="nav-bar__mobile-menu-link" href="index.html">Home</a>
@@ -20,28 +20,42 @@
       </div>
       <a class="nav-bar__mobile-menu-link" href="about.html">About</a>
     </div>
-    <nav class="h-100 d-flex align-items-center">
-      <a id="mobile-menu-show-btn" class="display-4 text-dark d-md-none"><i class="fas fa-bars"></i></a>
-      <div class="nav-bar__desktop-menu d-none d-md-flex justify-content-end px-5 gap-3 w-100">
-        <a class="nav-bar__link" href="index.html">Home</a>
-        <a class="nav-bar__link active" href="about.html">About</a>
+    <nav>
+      <div class="nav-bar__black-nav h-100 d-none d-md-flex align-items-center justify-content-end gap-3 pe-5">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#">English</a>
+        <a href="#">My Page</a>
+        <a href="#">Logout</a>
+      </div>
+      <div class="nav-bar__white-nav ps-3 h-100 d-flex align-items-center">
+        <a id="mobile-menu-show-btn" class="display-4 text-dark d-md-none ms-1"><i class="fas fa-bars"></i></a>
+        <div
+          class="nav-bar__desktop-menu d-none d-md-flex justify-content-between align-items-center ps-3 pe-5 gap-3 w-100">
+          <a class="nav-bar__logo"><img src="assets/images/logo.jpg"></a>
+          <div class="d-flex gap-4 align-items-center">
+            <a class="nav-bar__link" href="index.html">Home</a>
+            <a class="nav-bar__link active" href="about.html">About</a>
+            <a class="nav-bar__link nav-bar__join-btn">Join us</a>
+          </div>
+        </div>
       </div>
     </nav>
   </header>
 
   <main class="main-content main-content-about">
-    <header class="main-header p-2 px-md-5 pb-5 text-center">
-      <p class="mt-5 red-color fs-3">"Hello! Sharing world"</p>
-      <h1 class="mt-1 mb-3 red-color">Best Online Courses 2021</h1>
-      <p class="main-header__discreption p-2 mb-2 dark-gray">
+    <section class="main-header p-2 px-md-5 pb-5 text-center">
+      <p class="mt-5 red-color fs-2 fw-normal">"Hello! Sharing world"</p>
+      <h1 class="mt-1 mb-3 red-color display-4">Best Online Courses 2021</h1>
+      <p class="main-header__discreption p-2 mb-2 dark-gray mx-auto">
         Our Academy brings the best instructors in all fields who have the experience and passion to help you and teach
         all kinds of skills.
       </p>
-      <p class="dark-gray mb-1">
+      <p class="dark-gray mb-1 fs-5 fw-normal mt-5">
         Please contact us by Email for any further questions about our academy
       </p>
       <a class="main-header__account-link" href="#">bestcourses@online.org</a>
-    </header>
+    </section>
     <section class="logo-section pb-5 text-center">
       <h2 class="text-center underline mt-5 fw-bold fs-4">
         Best Online <br> learning 2021 Logo
@@ -95,7 +109,7 @@
   </main>
 
   <footer class="footer">
-    <section class="partners bg-dark text-light pt-4 pb-5">
+    <section class="partners text-light pt-4 pb-5">
       <h2 class="text-center underline mt-4">Partner</h2>
       <ul class="container d-flex flex-wrap justify-content-md-center mt-5">
         <li class="d-flex align-items-center col-md-2 col-4 p-2">
@@ -115,7 +129,7 @@
         </li>
       </ul>
     </section>
-    <div class="d-flex gap-3 align-items-center p-1 justify-content-center">
+    <div class="footer__last-part d-flex gap-3 align-items-center p-1 py-4 justify-content-center">
       <div class="d-flex align-items-center">
         <img class="img-responsive double-c" src="assets/images/cc.png" alt="double cc icon">
         <p class="company-name">

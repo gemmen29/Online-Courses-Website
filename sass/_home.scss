@@ -1,5 +1,20 @@
 .nav-bar {
-  height: 70px;
+  background: transparent;
+  position: absolute;
+  z-index: 1;
+
+  &__black-nav {
+    background-color: $font-color1;
+    padding: 3px;
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+
+  &__white-nav {
+    height: 70px;
+  }
 
   &__mobile-menu {
     position: fixed;
@@ -23,7 +38,7 @@
   }
 
   &__link {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-decoration: none;
     color: $font-color4;
     cursor: pointer;
@@ -43,13 +58,23 @@
     color: #{$font-color2}cc;
     background-color: transparent;
     border-radius: 0;
-    border-bottom: 1px solid $font-color2;
+  }
+
+  &__logo {
+    width: 100px;
+  }
+
+  &__join-btn {
+    border: 3px solid $font-color2;
+    font-size: 1rem;
+    padding: 5px 15px;
   }
 }
 
 .main-content {
   .main-header {
     position: relative;
+    padding-top: 70px !important;
 
     &::before {
       content: "";
@@ -66,6 +91,7 @@
 
     &__discreption {
       border: 4px solid white;
+      max-width: 600px;
     }
 
     h1,
@@ -76,6 +102,7 @@
   }
 
   .main-program {
+    background-color: $font-color1;
     .feature {
       grid-gap: 15px;
       position: relative;
@@ -108,11 +135,11 @@
   .featured-speakers {
     .speakers {
       .speaker {
-        .speaker__image {
+        &__image {
           position: relative;
         }
 
-        .speaker__image::before {
+        &__image::before {
           content: "";
           display: block;
           position: absolute;
@@ -126,7 +153,7 @@
           opacity: 0.75;
         }
 
-        .speaker__image::after {
+        &__image::after {
           content: "";
           display: block;
           position: absolute;
@@ -138,19 +165,25 @@
           z-index: -2;
         }
 
-        .speaker__name {
-          font-weight: 700;
+        &__name {
+          font-weight: 600;
+          font-size: 1.2rem;
         }
 
-        .speaker__info {
-          font-size: 13px;
+        &__info {
+          font-size: 0.81rem;
+          line-height: 1.06rem;
           position: relative;
         }
 
-        .speaker__info::after {
+        &__info::after {
           @include draw-line(30px, $font-color3);
 
-          top: 100%;
+          margin-top: 7px;
+        }
+        &__detailed-info {
+          font-size: 0.625rem;
+          line-height: 0.8rem;
         }
       }
     }
@@ -181,6 +214,7 @@
 
 .footer {
   .partners {
+    background-color: $font-color1;
     .brightness {
       filter: invert(100%);
     }

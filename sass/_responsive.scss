@@ -1,4 +1,8 @@
 @include media-md {
+  .nav-bar {
+    position: static;
+    background: white;
+  }
   .main-content {
     .logo-section__image {
       border: 0;
@@ -23,11 +27,25 @@
       text-underline-offset: 3.5px;
     }
   }
+  .footer {
+    &__last-part {
+      background-color: #2e2e2e;
+      color: white;
+      .double-c {
+        filter: invert(82%);
+      }
+    }
+  }
 }
 
 @include media-lg {
   .main-content .main-header {
-    padding: 3rem 20% !important;
+    padding: 3rem 10% !important;
+    padding-right: 25% !important;
+  }
+
+  .main-content-about .main-header {
+    padding: 3rem 15% !important;
   }
 
   .main-content .main-program {
