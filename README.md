@@ -19,7 +19,7 @@
 
 ## Loom Video
 
-[loom video](https://www.loom.com/share/d1fdb7e378704c0aa0383f0413bb7407?sharedAppSource=personal_library)
+[Loom video](https://www.loom.com/share/97981bda426b4c4ea21c2e62a1b4113e?sharedAppSource=personal_library)
 
 ## Getting Started
 
