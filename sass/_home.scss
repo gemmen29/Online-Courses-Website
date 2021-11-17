@@ -6,6 +6,7 @@
   &__black-nav {
     background-color: $font-color1;
     padding: 3px;
+
     a {
       color: white;
       text-decoration: none;
@@ -103,6 +104,7 @@
 
   .main-program {
     background-color: $font-color1;
+
     .feature {
       grid-gap: 15px;
       position: relative;
@@ -181,6 +183,7 @@
 
           margin-top: 7px;
         }
+
         &__detailed-info {
           font-size: 0.625rem;
           line-height: 0.8rem;
@@ -215,6 +218,7 @@
 .footer {
   .partners {
     background-color: $font-color1;
+
     .brightness {
       filter: invert(100%);
     }

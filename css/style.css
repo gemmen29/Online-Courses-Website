@@ -1,10 +1,11 @@
 /* Box sizing rules */
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
 *,
 *::before,
 *::after {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Remove default margin */
@@ -70,15 +71,16 @@ select {
   html:focus-within {
     scroll-behavior: auto;
   }
+
   *,
   *::before,
   *::after {
     -webkit-animation-duration: 0.01ms !important;
-            animation-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
     -webkit-animation-iteration-count: 1 !important;
-            animation-iteration-count: 1 !important;
+    animation-iteration-count: 1 !important;
     -webkit-transition-duration: 0.01ms !important;
-            transition-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
 }
@@ -318,8 +320,8 @@ select {
   border: 1px solid #d3d3d3;
   margin: 5px 15px;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   gap: 12px;
 }
 
@@ -329,7 +331,7 @@ select {
   width: 13px;
   height: 13px;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
   margin-top: 3px;
 }
 
@@ -343,7 +345,7 @@ select {
 
 .footer .partners .brightness {
   -webkit-filter: invert(100%);
-          filter: invert(100%);
+  filter: invert(100%);
 }
 
 .footer .double-c {
@@ -426,17 +428,20 @@ select {
     position: static;
     background: white;
   }
+
   .main-content .logo-section__image {
     border: 0;
   }
+
   .main-content .logo-section__image img {
     border: 1px solid #afafaf;
   }
+
   .main-content .featured-speakers .speakers .speaker:nth-child(n + 3) {
     display: -webkit-box !important;
-    display: -ms-flexbox !important;
     display: flex !important;
   }
+
   .main-content .main-program .join-button {
     background-color: transparent;
     color: white;
@@ -449,13 +454,15 @@ select {
     text-decoration: underline;
     text-underline-offset: 3.5px;
   }
+
   .footer__last-part {
     background-color: #2e2e2e;
     color: white;
   }
+
   .footer__last-part .double-c {
     -webkit-filter: invert(82%);
-            filter: invert(82%);
+    filter: invert(82%);
   }
 }
 
@@ -464,11 +471,12 @@ select {
     padding: 3rem 10% !important;
     padding-right: 25% !important;
   }
+
   .main-content-about .main-header {
     padding: 3rem 15% !important;
   }
+
   .main-content .main-program {
     padding: 1.5rem 8% !important;
   }
 }
-/*# sourceMappingURL=style.css.map */

@@ -3,6 +3,7 @@
     position: static;
     background: white;
   }
+
   .main-content {
     .logo-section__image {
       border: 0;
@@ -27,10 +28,12 @@
       text-underline-offset: 3.5px;
     }
   }
+
   .footer {
     &__last-part {
       background-color: #2e2e2e;
       color: white;
+
       .double-c {
         filter: invert(82%);
       }
