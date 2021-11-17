@@ -1,0 +1,56 @@
+@include media-md {
+  .nav-bar {
+    position: static;
+    background: white;
+  }
+
+  .main-content {
+    .main-header {
+      padding: 0 4rem;
+    }
+
+    .logo-section__image {
+      border: 0;
+
+      img {
+        border: 1px solid #afafaf;
+      }
+    }
+
+    .featured-speakers .speakers .speaker:nth-child(n + 3) {
+      display: flex !important;
+    }
+
+    .main-program .join-button {
+      background-color: transparent;
+      color: white;
+      font-size: 1.2rem;
+      margin: 10px auto;
+      display: block;
+      width: fit-content;
+      text-decoration: underline;
+      text-underline-offset: 3.5px;
+    }
+  }
+
+  .footer {
+    &__last-part {
+      background-color: #2e2e2e;
+      color: white;
+
+      .double-c {
+        filter: invert(82%);
+      }
+    }
+  }
+}
+
+@include media-lg {
+  .main-content .main-header {
+    padding: 0 6rem;
+  }
+
+  .main-content .main-program {
+    padding: 1.5rem 8% !important;
+  }
+}

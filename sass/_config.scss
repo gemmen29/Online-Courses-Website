@@ -1,9 +1,33 @@
-$font-color1-black: #272a31;
-$font-color2-red: #ec5242;
-$font-color3-gray: #d3d3d3;
+$font-color1: #272a31;
+$font-color2: #ec5242;
+$font-color3: #d3d3d3;
+$font-color4: #4f4f4f;
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+@font-face {
+  font-family: cocogoose;
+  src: url('../assets/fonts/cocogoose-pro.regular.ttf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@mixin draw-line($width, $color) {
+  content: "";
+  display: block;
+  position: absolute;
+  width: $width;
+  height: 2px;
+  background-color: $color;
+  border-radius: 2px;
+}
+
+@mixin media-md {
+  @media screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin media-lg {
+  @media screen and (min-width: 1024px) {
+    @content;
+  }
 }
