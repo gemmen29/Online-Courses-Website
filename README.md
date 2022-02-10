@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Module 1 Capstone Project
+# Online Courses Website
 
 > This is the first module capstone project in microverse.
 
@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://gemmen29.github.io/Module1-Capstone/)
+[Live Demo Link](https://gemmen29.github.io/Online-Courses-Website/)
 
 ## Loom Video
 
